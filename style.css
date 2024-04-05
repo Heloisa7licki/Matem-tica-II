@@ -1,4 +1,13 @@
-header { background-color: #424E61;
-color:silver;}
+{
+    margin: 0;
+    padding: 0;
+}
 
-.cabeçario-imagem {}
+ .cabecalho{
+    background-color: #12372A
+    color: wheat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+ }
