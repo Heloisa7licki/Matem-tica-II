@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
 }
+// <uniquifier>: Use a unique and descriptive class name
 
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 .cabecalho {
     background-color: #78d6e3;
     color: rgb(235, 238, 238);
