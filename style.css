@@ -32,9 +32,6 @@
     font-size: 22px;
 }
 
-.cabeçalho-lista-item a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
-}
 
 .cabeçalho-logotipo {
     width: 120px;
