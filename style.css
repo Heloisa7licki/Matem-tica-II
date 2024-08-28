@@ -18,8 +18,8 @@
 }
 
 .cabeçalho-lista {
-    list-style: none; /* Remove os marcadores padrão */
-    display: flex; /* Alinha os itens em linha */
+    list-style: none; 
+    display: flex; 
 }
 
 .cabeçalho-lista-item {
@@ -27,8 +27,8 @@
 }
 
 .cabeçalho-lista-item a {
-    color: white; /* Cor do texto dos links */
-    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; 
+    text-decoration: none; 
     font-size: 22px;
 }
 
