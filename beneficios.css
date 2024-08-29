@@ -1,0 +1,86 @@
+/* Reset básico para garantir que a aparência seja consistente entre os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f8f0; /* Cor de fundo clara para contraste com os verdes */
+}
+
+/* Estilização do cabeçalho */
+header.cabeçalho {
+    background-color: #4CAF50; /* Verde escuro */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header.cabeçalho h1.cabeçalho-título {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Estilização da seção principal */
+section.nossa-escola {
+    padding: 20px;
+}
+
+.nossa-escola-div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilização dos títulos */
+h2.nossa-escola-título {
+    color: #388E3C; /* Verde médio */
+    border-bottom: 2px solid #388E3C;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* Estilização dos parágrafos */
+p.nossa-escola-texto1,
+p.nossa-escola-texto2,
+p.nossa-escola-texto3,
+p.nossa-escola-texto4,
+p.nossa-escola-texto5,
+p.nossa-escola-texto6,
+p.nossa-escola-texto7 {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Estilização da imagem */
+img.nossa-escola-imagem {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Estilização para links (se houver) */
+a {
+    color: #4CAF50; /* Verde escuro */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Adicionando uma borda leve e sombra para criar profundidade */
+div.nossa-escola-div {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
